@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+::-webkit-scrollbar {
+    width: 18px;
+}
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-6);
+    &:hover {
+        background-color: var(--color-7);
+    }
+}
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: var(--color-6) #000;
+}

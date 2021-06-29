@@ -1,0 +1,5 @@
+node_modules/**
+
+ui/.svelte-kit/**
+ui/src/build/**
+ui/static/**

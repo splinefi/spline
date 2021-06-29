@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+* {
+    transition: all 0.1s cubic-bezier(0.215, 0.61, 0.355, 1), padding 0s,
+        width 0s;
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        -webkit-transition-property: none;
+        -moz-transition-property: none;
+        -o-transition-property: none;
+        transition-property: none;
+    }
+}
+span.rippleAnimation {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    height: 0;
+    opacity: 1;
+    position: absolute;
+    transform: scale(0);
+    width: 0;
+}
+.rippleAnimation {
+    animation: ripple 0.6s linear;
+}
+@keyframes ripple {
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+@keyframes rainbow {
+    0%,
+    to {
+        border-color: #00fff2;
+        box-shadow: 0 1px 3px #00fff2, 0 2px 4px #111;
+    }
+    20% {
+        border-color: #6f0;
+        box-shadow: 0 1px 3px #6f0, 0 2px 4px #111;
+    }
+    40% {
+        border-color: #f7277e;
+        box-shadow: 0 1px 3px #f7277e, 0 2px 4px #111;
+    }
+    60% {
+        border-color: #fe0;
+        box-shadow: 0 1px 3px #fe0, 0 2px 4px #111;
+    }
+    80% {
+        border-color: #f60;
+        box-shadow: 0 1px 3px #f60, 0 2px 4px #111;
+    }
+}

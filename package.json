@@ -1,0 +1,36 @@
+{
+    "name": "spline",
+    "version": "0.0.0",
+    "description": "Yield farming and more on L2",
+    "main": "src/main.js",
+    "private": "true",
+    "scripts": {
+        "preinstall": "npx only-allow pnpm",
+        "prepare": "husky install",
+        "ui:build": "cd ui && npx svelte-kit build",
+        "ui:dev": "cd ui && npx svelte-kit dev",
+        "ui:preview": "cd ui && npx svelte-kit preview",
+        "lint": "prettier --write . && eslint . --ext .js --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/splinefi/spline.git"
+    },
+    "author": "Spline",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/splinefi/spline/issues"
+    },
+    "homepage": "https://github.com/splinefi/spline#readme",
+    "devDependencies": {
+        "eslint": "^7.29.0",
+        "eslint-config-prettier": "^8.3.0",
+        "husky": "^6.0.0",
+        "prettier": "^2.3.1",
+        "prettier-plugin-svelte": "^2.3.1"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "dotenv-cli": "^4.0.0"
+    }
+}

@@ -1,0 +1,6 @@
+node_modules/
+ui/.svelte-kit/
+ui/src/build/
+
+package-lock.json
+pnpm-lock.yaml

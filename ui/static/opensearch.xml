@@ -1,0 +1,9 @@
+<OpenSearchDescription>
+    <ShortName>Spline</ShortName>
+    <Description>Search through Spline vaults</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <LongName>Spline</LongName>
+    <Image width="32" height="32" type="image/svg+xml">/img/favicon-32.svg</Image>
+    <Url type="application/opensearchdescription+xml" rel="self" template="/opensearch.xml"/>
+    <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>

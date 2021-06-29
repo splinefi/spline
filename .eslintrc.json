@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2015,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-dupe-else-if": ["error"],
+        "no-dupe-keys": ["error"],
+        "no-unreachable": ["error"],
+        "strict": ["error", "never"],
+        "no-undef-init": ["error"],
+        "camelcase": ["error"],
+        "indent": ["error", 4],
+        "quotes": ["error", "backtick"]
+    }
+}

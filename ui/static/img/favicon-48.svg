@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="48px" height="48px" viewBox="0 0 862 862" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <linearGradient id="gradient">
+            <stop class="stop1" offset="0%"/>
+            <stop class="stop2" offset="10%"/>
+            <stop class="stop3" offset="50%"/>
+            <stop class="stop4" offset="90%"/>
+            <stop class="stop5" offset="100%"/>
+        </linearGradient>
+        <style type="text/css">
+            #main { fill: url(#gradient); }
+            .stop1 { stop-color: #fdffb6; }
+            .stop2 { stop-color: #b7e4c7; }
+            .stop3 { stop-color: #9bf6ff; }
+            .stop4 { stop-color: #bdb2ff; }
+            .stop5 { stop-color: #ffc6ff; }
+        </style>
+    </defs>
+    <g id="main" transform="translate(0,862) scale(.1,-.1)" fill="url(#gradient)" stroke="none">
+        <path d="M7935 8555 c-61 -14 -320 -100 -660 -220 -854 -301 -1417 -575 -1875 -914 -41 -31 -82 -61 -90 -68 -8 -7 -46 -38 -85 -69 -153 -124 -352 -322 -450 -448 -16 -21 -35 -44 -40 -50 -47 -50 -188 -256 -257 -376 -268 -463 -412 -900 -692 -2106 -283 -1220 -470 -1647 -903 -2065 -428 -413 -1031 -719 -2173 -1103 -173 -58 -349 -123 -390 -143 -87 -43 -180 -130 -222 -209 -100 -186 -69 -419 74 -570 119 -126 278 -181 443 -154 99 16 750 238 1160 395 312 119 751 324 992 464 455 262 829 575 1108 926 54 68 204 284 218 315 4 8 18 33 32 55 55 88 179 347 244 509 152 380 274 823 491 1781 88 389 212 806 313 1050 144 353 281 562 526 805 256 255 521 434 945 641 314 153 606 267 1196 471 206 71 402 141 435 157 274 128 373 464 211 715 -116 180 -326 261 -551 211z"/>
+    </g>
+</svg>

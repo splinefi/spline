@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+:root {
+    --color-1: #d8f3dc;
+    --color-2: #b7e4c7;
+    --color-3: #95d5b2;
+    --color-4: #74c69d;
+    --color-5: #52b788;
+    --color-6: #40916c;
+    --color-7: #2d6a4f;
+    --color-8: #1b4332;
+    --color-9: #081c15;
+}
+:root[data-theme="dark"] {
+    --color-1: #ffadad;
+    --color-2: #ffd6a5;
+    --color-3: #fdffb6;
+    --color-4: #caffbf;
+    --color-5: #9bf6ff;
+    --color-6: #a0c4ff;
+    --color-7: #bdb2ff;
+    --color-8: #ffc6ff;
+    --color-9: #fff;
+}

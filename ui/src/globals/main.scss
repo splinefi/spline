@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+[role="button"],
+a,
+button {
+    &:focus,
+    &:active {
+        border-radius: 2px;
+        box-shadow: 0 0 0 5px rgba(64, 145, 108, 0.25), 0 0 0 2px var(--color-6);
+        [data-theme="dark"] & {
+            box-shadow: 0 0 0 5px rgba(160, 196, 255, 0.25),
+                0 0 0 2px var(--color-6);
+        }
+    }
+}
+a,
+br,
+img,
+input,
+button {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+    outline: 0;
+    user-select: none;
+}
+body {
+    background: #fff radial-gradient(50% 50%, #e9efff 0%, #fff 100%) repeat
+        scroll 0% 0%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    overflow: hidden scroll;
+    text-rendering: optimizeLegibility;
+    [data-theme="dark"] & {
+        background: #111 radial-gradient(50% 50%, #121212 0%, #111 100%) repeat
+            scroll 0% 0%;
+    }
+}

@@ -1,5 +1,5 @@
 <script>
-    import Level from '$lib/Level/index.svelte';
+    import Level from '$lib/components/Level/index.svelte';
     import Introduction from '../help/introduction.md';
     import Deposits from '../help/deposits.md';
     import Withdrawals from '../help/withdrawals.md';

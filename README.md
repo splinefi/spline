@@ -2,7 +2,7 @@
 
 **IMPORTANT: This project is a work in progress and is not yet stable.**
 
-The cheapest yield farming (and more) in all of DeFi.
+L2-native aggregator for L1 yield.
 
 ## Development
 

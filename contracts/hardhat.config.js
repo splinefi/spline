@@ -57,6 +57,6 @@ module.exports = {
         ],
     },
     watcher: {
-        watch: { tasks: [{ command: `run`, params: { script: `scripts/deploy.js` } }] },
+        watch: { tasks: [{ command: `run`, params: { script: `scripts/deploy.js`, }, }] },
     },
 };

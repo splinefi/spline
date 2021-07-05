@@ -1,0 +1,4 @@
+module.exports = {
+    mnemonic: ``, // Deployer wallet mnemonic. Required for deploying on real networks.
+    ALCHEMY_KEY: `` // If you'd like to use Alchemy, enter your key here.
+}

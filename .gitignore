@@ -1,6 +1,17 @@
 node_modules/
+
+contracts/artifacts/
+contracts/cache/
+contracts/deployments/
+contracts/typechain/
+contracts/config.js
+!contracts/config.js.example
+contracts/yarn-error.log
+
 ui/.svelte-kit/
 ui/src/build/
+ui/src/lib/contracts.json
 
+.DS_Store
 package-lock.json
 pnpm-lock.yaml

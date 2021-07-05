@@ -27,15 +27,15 @@ button {
     user-select: none;
 }
 body {
-    background: #fff radial-gradient(50% 50%, #e9efff 0%, #fff 100%) repeat
+    background: #fff radial-gradient(50% 50%, #e9efff 0%, #fff 100%) no-repeat
         scroll 0% 0%;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
+    height: calc(100vh - 80px);
     margin: 0;
     overflow: hidden scroll;
     text-rendering: optimizeLegibility;
     [data-theme="dark"] & {
-        background: #111 radial-gradient(50% 50%, #121212 0%, #111 100%) repeat
-            scroll 0% 0%;
+        background: #111;
     }
 }

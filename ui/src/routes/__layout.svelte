@@ -4,8 +4,8 @@
     import '../globals/main.scss';
     import '../globals/scrollbars.scss';
     import { page } from '$app/stores';
-    import Navbar from '$lib/Navbar/index.svelte';
-    import Container from '$lib/Container/index.svelte';
+    import Navbar from '$lib/components/Navbar/index.svelte';
+    import Container from '$lib/components/Container/index.svelte';
 
     const url = `https://spline.fi${$page.path[$page.path.length - 1] === `/` ? $page.path : `${$page.path}/`}`;
 
@@ -22,7 +22,6 @@
     <meta property="og:url" content={url}>
     <meta name="twitter:url" content={url}>
 </svelte:head>
-
 
 <header>
     <Navbar />

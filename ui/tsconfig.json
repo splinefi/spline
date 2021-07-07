@@ -1,24 +1,32 @@
 {
     "compilerOptions": {
-      "moduleResolution": "node",
-      "module": "es2020",
-      "lib": ["es2020"],
-      "target": "es2018",
-      "importsNotUsedAsValues": "error",
-      "isolatedModules": true,
-      "resolveJsonModule": true,
-      "sourceMap": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "baseUrl": ".",
-      // "allowJs": true,
-      // "checkJs": true,
-      "paths": {
-        "$app/*": [".svelte/dev/runtime/app/*", ".svelte/build/runtime/app/*"],
-        "$service-worker": [".svelte/build/runtime/service-worker"],
-        "$lib/*": ["src/lib/*"]
-      }
+        "moduleResolution": "node",
+        "module": "es2020",
+        "lib": ["es2020"],
+        "target": "es2018",
+        "importsNotUsedAsValues": "error",
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        // "allowJs": true,
+        // "checkJs": true,
+        "paths": {
+            "$app/*": [
+                ".svelte/dev/runtime/app/*",
+                ".svelte/build/runtime/app/*"
+            ],
+            "$service-worker": [".svelte/build/runtime/service-worker"],
+            "$lib/*": ["src/lib/*"]
+        }
     },
-    "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
-  }
+    "include": [
+        "src/**/*.d.ts",
+        "src/**/*.js",
+        "src/**/*.ts",
+        "src/**/*.svelte"
+    ]
+}

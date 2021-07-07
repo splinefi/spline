@@ -18,10 +18,6 @@
 
     const connectWallet = () => $wallet.address === undefined ? modal = true : ``;
 
-    const mount = (button, $wallet) => {
-        $: $wallet, button.innerHTML = $wallet.address === undefined ? `Connect&nbsp;Wallet` : $wallet.address.substring(0, 8);
-    }
-
     const close = () => {
         modal = false;
         refresh();

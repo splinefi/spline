@@ -34,7 +34,9 @@
     },
     "author": "wighawag",
     "license": "MIT",
-    "contributors": ["Spline"],
+    "contributors": [
+        "Spline"
+    ],
     "bugs": {
         "url": "https://github.com/splinefi/spline/issues"
     },

@@ -11,7 +11,6 @@ contracts/yarn-error.log
 
 ui/.svelte-kit/
 ui/src/build/
-#ui/src/lib/contracts.json
 
 .DS_Store
 package-lock.json
